@@ -357,5 +357,8 @@
         "FluSight-ensemble",
         "FluSight-baseline"
     ],
-    "initial_xaxis_range": null
+    "initial_xaxis_range": [
+        "2024-09-01",
+        "2025-07-01"
+    ]
 }
