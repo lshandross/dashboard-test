@@ -1,73 +1,232 @@
 {
     "target_variables": [
         {
-            "value": "ILI ED visits",
-            "text": "ED visits due to ILI",
-            "plot_text": "ED visits due to ILI"
-        },
-        {
-            "value": "Flu ED visits pct",
-            "text": "Percentage of ED visits due to influenza",
-            "plot_text": "Percentage of ED visits due to influenza"
+            "value": "wk inc flu hosp",
+            "text": "incident influenza hospitalizations",
+            "plot_text": "incident influenza hospitalizations"
         }
     ],
-    "initial_target_var": "ILI ED visits",
+    "initial_target_var": "wk inc flu hosp",
     "task_ids": {
-        "ILI ED visits": {
+        "wk inc flu hosp": {
             "location": [
                 {
-                    "value": "NYC",
-                    "text": "NYC"
+                    "value": "US",
+                    "text": "United States"
                 },
                 {
-                    "value": "Bronx",
-                    "text": "Bronx"
+                    "value": "01",
+                    "text": "Alabama"
                 },
                 {
-                    "value": "Brooklyn",
-                    "text": "Brooklyn"
+                    "value": "02",
+                    "text": "Alaska"
                 },
                 {
-                    "value": "Manhattan",
-                    "text": "Manhattan"
+                    "value": "04",
+                    "text": "Arizona"
                 },
                 {
-                    "value": "Queens",
-                    "text": "Queens"
+                    "value": "05",
+                    "text": "Arkansas"
                 },
                 {
-                    "value": "Staten Island",
-                    "text": "Staten Island"
-                }
-            ]
-        },
-        "Flu ED visits pct": {
-            "location": [
-                {
-                    "value": "Austin",
-                    "text": "Austin"
+                    "value": "06",
+                    "text": "California"
                 },
                 {
-                    "value": "Houston",
-                    "text": "Houston"
+                    "value": "08",
+                    "text": "Colorado"
                 },
                 {
-                    "value": "Dallas",
-                    "text": "Dallas"
+                    "value": "09",
+                    "text": "Connecticut"
                 },
                 {
-                    "value": "El Paso",
-                    "text": "El Paso"
+                    "value": "10",
+                    "text": "Delaware"
                 },
                 {
-                    "value": "San Antonio",
-                    "text": "San Antonio"
+                    "value": "11",
+                    "text": "District of Columbia"
+                },
+                {
+                    "value": "12",
+                    "text": "Florida"
+                },
+                {
+                    "value": "13",
+                    "text": "Georgia"
+                },
+                {
+                    "value": "15",
+                    "text": "Hawaii"
+                },
+                {
+                    "value": "16",
+                    "text": "Idaho"
+                },
+                {
+                    "value": "17",
+                    "text": "Illinois"
+                },
+                {
+                    "value": "18",
+                    "text": "Indiana"
+                },
+                {
+                    "value": "19",
+                    "text": "Iowa"
+                },
+                {
+                    "value": "20",
+                    "text": "Kansas"
+                },
+                {
+                    "value": "21",
+                    "text": "Kentucky"
+                },
+                {
+                    "value": "22",
+                    "text": "Louisiana"
+                },
+                {
+                    "value": "23",
+                    "text": "Maine"
+                },
+                {
+                    "value": "24",
+                    "text": "Maryland"
+                },
+                {
+                    "value": "25",
+                    "text": "Massachusetts"
+                },
+                {
+                    "value": "26",
+                    "text": "Michigan"
+                },
+                {
+                    "value": "27",
+                    "text": "Minnesota"
+                },
+                {
+                    "value": "28",
+                    "text": "Mississippi"
+                },
+                {
+                    "value": "29",
+                    "text": "Missouri"
+                },
+                {
+                    "value": "30",
+                    "text": "Montana"
+                },
+                {
+                    "value": "31",
+                    "text": "Nebraska"
+                },
+                {
+                    "value": "32",
+                    "text": "Nevada"
+                },
+                {
+                    "value": "33",
+                    "text": "New Hampshire"
+                },
+                {
+                    "value": "34",
+                    "text": "New Jersey"
+                },
+                {
+                    "value": "35",
+                    "text": "New Mexico"
+                },
+                {
+                    "value": "36",
+                    "text": "New York"
+                },
+                {
+                    "value": "37",
+                    "text": "North Carolina"
+                },
+                {
+                    "value": "38",
+                    "text": "North Dakota"
+                },
+                {
+                    "value": "39",
+                    "text": "Ohio"
+                },
+                {
+                    "value": "40",
+                    "text": "Oklahoma"
+                },
+                {
+                    "value": "41",
+                    "text": "Oregon"
+                },
+                {
+                    "value": "42",
+                    "text": "Pennsylvania"
+                },
+                {
+                    "value": "44",
+                    "text": "Rhode Island"
+                },
+                {
+                    "value": "45",
+                    "text": "South Carolina"
+                },
+                {
+                    "value": "46",
+                    "text": "South Dakota"
+                },
+                {
+                    "value": "47",
+                    "text": "Tennessee"
+                },
+                {
+                    "value": "48",
+                    "text": "Texas"
+                },
+                {
+                    "value": "49",
+                    "text": "Utah"
+                },
+                {
+                    "value": "50",
+                    "text": "Vermont"
+                },
+                {
+                    "value": "51",
+                    "text": "Virginia"
+                },
+                {
+                    "value": "53",
+                    "text": "Washington"
+                },
+                {
+                    "value": "54",
+                    "text": "West Virginia"
+                },
+                {
+                    "value": "55",
+                    "text": "Wisconsin"
+                },
+                {
+                    "value": "56",
+                    "text": "Wyoming"
+                },
+                {
+                    "value": "72",
+                    "text": "Puerto Rico"
                 }
             ]
         }
     },
     "initial_task_ids": {
-        "location": "NYC"
+        "location": "US"
     },
     "intervals": [
         "0%",
@@ -76,7 +235,47 @@
     ],
     "initial_interval": "95%",
     "available_as_ofs": {
-        "ILI ED visits": [
+        "wk inc flu hosp": [
+            "2023-10-07",
+            "2023-10-14",
+            "2023-10-21",
+            "2023-10-28",
+            "2023-11-04",
+            "2023-11-11",
+            "2023-11-18",
+            "2023-11-25",
+            "2023-12-02",
+            "2023-12-09",
+            "2023-12-16",
+            "2023-12-23",
+            "2023-12-30",
+            "2024-01-06",
+            "2024-01-13",
+            "2024-01-20",
+            "2024-01-27",
+            "2024-02-03",
+            "2024-02-10",
+            "2024-02-17",
+            "2024-02-24",
+            "2024-03-02",
+            "2024-03-09",
+            "2024-03-16",
+            "2024-03-23",
+            "2024-03-30",
+            "2024-04-06",
+            "2024-04-13",
+            "2024-04-20",
+            "2024-04-27",
+            "2024-05-04",
+            "2024-11-23",
+            "2024-11-30",
+            "2024-12-07",
+            "2024-12-14",
+            "2024-12-21",
+            "2024-12-28",
+            "2025-01-04",
+            "2025-01-11",
+            "2025-01-18",
             "2025-01-25",
             "2025-02-01",
             "2025-02-08",
@@ -94,42 +293,69 @@
             "2025-05-03",
             "2025-05-10",
             "2025-05-17",
-            "2025-05-24"
-        ],
-        "Flu ED visits pct": [
-            "2025-02-01",
-            "2025-02-08",
-            "2025-02-15",
-            "2025-02-22",
-            "2025-03-01",
-            "2025-03-08",
-            "2025-03-15",
-            "2025-03-22",
-            "2025-03-29",
-            "2025-04-05",
-            "2025-04-12",
-            "2025-04-19",
-            "2025-04-26",
-            "2025-05-03",
-            "2025-05-10",
-            "2025-05-17",
-            "2025-05-24"
+            "2025-05-24",
+            "2025-05-31"
         ]
     },
-    "initial_as_of": "2025-05-24",
-    "current_date": "2025-05-24",
+    "initial_as_of": "2025-05-31",
+    "current_date": "2025-05-31",
     "models": [
-        "epiENGAGE-Copycat",
-        "epiENGAGE-GBQR",
-        "epiENGAGE-INFLAenza",
-        "epiENGAGE-baseline",
-        "epiENGAGE-ensemble_mean",
-        "epiENGAGE-lop_norm",
-        "epiforecasts-dyngam"
+        "CADPH-FluCAT_Ensemble",
+        "CEPH-Rtrend_fluH",
+        "CFA_Pyrenew-Pyrenew_HE_Flu",
+        "CMU-TimeSeries",
+        "CU-ensemble",
+        "FluSight-baseline",
+        "FluSight-ensemble",
+        "GT-FluFNP",
+        "Gatech-ensemble_point",
+        "Gatech-ensemble_prob",
+        "Google_SAI-FluBoostQR",
+        "ISU_NiemiLab-GPE",
+        "ISU_NiemiLab-NLH",
+        "JHUAPL-DMD",
+        "JHUAPL-Morris",
+        "JHU_CSSE-CSSE_Ensemble",
+        "LUcompUncertLab-chimera",
+        "LosAlamos_NAU-CModel_Flu",
+        "MDPredict-SIRS",
+        "MIGHTE-Joint",
+        "MIGHTE-Nsemble",
+        "MOBS-GLEAM_FLUH",
+        "Metaculus-cp",
+        "NEU_ISI-AdaptiveEnsemble",
+        "NEU_ISI-FluBcast",
+        "NIH-Flu_ARIMA",
+        "NU_UCSD-GLEAM_AI_FLUH",
+        "OHT_JHU-nbxd",
+        "PSI-PROF",
+        "PSI-PROF_beta",
+        "SGroup-RandomForest",
+        "SigSci-BECAM",
+        "SigSci-CREG",
+        "SigSci-TSENS",
+        "Stevens-GBR",
+        "Stevens-ILIForecast",
+        "UGA_CEID-Walk",
+        "UGA_flucast-Copycat",
+        "UGA_flucast-INFLAenza",
+        "UGuelph-CompositeCurve",
+        "UGuelphensemble-GRYPHON",
+        "UI_CompEpi-EpiGen",
+        "UM-DeepOutbreak",
+        "UMass-flusion",
+        "UNC_IDD-InfluPaint",
+        "UVAFluX-CESGCN",
+        "UVAFluX-Ensemble",
+        "VTSanghani-Ensemble",
+        "VTSanghani-PRIME",
+        "cfa-flumech",
+        "cfarenewal-cfaepimlight",
+        "fjordhest-ensemble"
     ],
     "initial_checked_models": [
-        "epiENGAGE-ensemble_mean"
+        "FluSight-ensemble",
+        "FluSight-baseline"
     ],
-    "disclaimer": "Observed counts are aggregated by week and predictions are made for each week. Dates associated with specific data points reflect the last day (Saturday) of the week.",
     "initial_xaxis_range": null
 }
